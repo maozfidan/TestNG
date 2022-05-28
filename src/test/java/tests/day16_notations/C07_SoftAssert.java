@@ -42,7 +42,11 @@ public class C07_SoftAssert extends TestBase {
         String secilenOption= select.getFirstSelectedOption().getText();
         String expectedOption="Eurozone (Euro)";
         softAssert.assertEquals(secilenOption,expectedOption,"secilen option uygun degil");
-        // 10. soft assert kullanarak DropDown listesinin su secenekleri oldugunu test edin "Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China (yuan)","Denmark (krone)","Eurozone (euro)","Great Britain (pound)","Hong Kong (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"
+        // 10. soft assert kullanarak DropDown listesinin su secenekleri oldugunu test edin "Select One",
+        // "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China (yuan)",
+        // "Denmark (krone)","Eurozone (euro)","Great Britain (pound)","Hong Kong (dollar)",
+        // "Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand (dollar)",
+        // "Sweden (krona)","Singapore (dollar)","Thailand (baht)"
         List<WebElement> optionList= select.getOptions();
 
 
