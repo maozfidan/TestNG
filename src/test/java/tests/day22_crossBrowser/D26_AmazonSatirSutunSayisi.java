@@ -5,8 +5,9 @@ import org.testng.annotations.Test;
 import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.TestBaseCross;
 
-public class D26_AmazonSatirSutunSayisi {
+public class D26_AmazonSatirSutunSayisi extends TestBaseCross {
 
 
     //➢ Tests paketi altinda yeni bir class olusturun: D26_AmazonSatirSutunSayisi
@@ -33,7 +34,7 @@ public class D26_AmazonSatirSutunSayisi {
     }
 
 
-    public void method2() {
+    public  void method2() {
 
         System.out.println(amazonPage.sütun.size());
 

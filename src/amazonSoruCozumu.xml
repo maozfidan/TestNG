@@ -1,12 +1,28 @@
+<!--.: Soru 3 :
+
+        ➢ Amazon uzerine yapilan 4 testi otomatik olarak calistiracak xml
+        kodunu yazin ve calistirin
+        ➢ D26_AmazonSatirSutunSayisi class’indan satirSayisi() testini ve
+        D26_AmazonHucreTesti class’indan hucretesti() testini calistiracak
+        xml kodunu yazin ve calistirin
+        
+        : Soru 4 :
+
+        ➢ D26_AmazonSatirSutunSayisi class’indan satirSayisi()
+        testini ve D26_AmazonHucreTesti class’indan
+        hucretesti() testini rapor alacak sekilde hazirlayin ve
+        3.sorudaki xml dosyasi ile calistirip raporu olusturun
+-->
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Soru cozümü">
-    <test name="Amazon">
-        <classes>
-            <class name="tests.day22_crossBrowser.AmazonSoruCozum"></class>
-            <class name="tests.day22_crossBrowser.D26_AmazonSatirSutunSayisi"></class>
-            <class name="tests.day22_crossBrowser.D26_AmazonHucreTesti"></class>
-        </classes>
+<suite name="4 Test Calistirma">
+    <test name="soru cozumu testi">
+
+       <classes>
+           <class name="tests.day21_reusableMethods_HtmlReports.AmazonRapor"></class>
+
+       </classes>
 
     </test>
-
+    
+    
 </suite>

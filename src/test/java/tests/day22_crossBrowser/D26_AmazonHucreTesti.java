@@ -3,8 +3,10 @@ package tests.day22_crossBrowser;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
+import utilities.TestBase;
+import utilities.TestBaseCross;
 
-public class D26_AmazonHucreTesti {
+public class D26_AmazonHucreTesti extends TestBaseCross {
 
     //AmazonPage sayfasinda istedigim satir ve sutun sayisi ile cagirdigimda
     //bana hucredeki yaziyi getirecek bir method olusturun

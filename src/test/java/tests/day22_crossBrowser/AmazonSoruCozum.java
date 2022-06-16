@@ -6,10 +6,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.TestBaseCross;
 
 import java.time.Duration;
 
-public class AmazonSoruCozum {
+public class AmazonSoruCozum extends TestBaseCross {
 
     //Amazon anasayfaya gidebilecek sekilde bir page sayfasi olusturun : AmazonPage
     //
