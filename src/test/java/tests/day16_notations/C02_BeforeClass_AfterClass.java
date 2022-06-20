@@ -19,10 +19,12 @@ public class C02_BeforeClass_AfterClass extends TestBase {
      */
     @BeforeClass
     public void beforeClassMethod(){
+
         System.out.println("Before Class");
     }
     @AfterClass
     public void afterClassMethod(){
+
         System.out.println("After Class");
     }
     @Test
